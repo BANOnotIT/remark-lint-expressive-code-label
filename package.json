@@ -1,0 +1,64 @@
+{
+  "name": "remark-lint-expressive-code-label",
+  "description": "Remark lint plugin to validate Expressive Code labels",
+  "type": "module",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "BANO",
+    "email": "me@bano.dev",
+    "url": "https://bano.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BANOnotIT/remark-lint-expressive-code-label"
+  },
+  "bugs": {
+    "url": "https://github.com/BANOnotIT/remark-lint-expressive-code-label/issues"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@expressive-code/core": "^0.41.3"
+  },
+  "dependencies": {
+    "mdast-util-phrasing": "^4.0.0",
+    "unified-lint-rule": "^3.0.0",
+    "unist-util-position": "^5.0.0",
+    "unist-util-visit-parents": "^6.0.0"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@expressive-code/core": "^0.41.3",
+    "@types/node": "^24.10.1",
+    "@types/mdast": "^4.0.0",
+    "bumpp": "^10.3.2",
+    "dedent": "^1.7.0",
+    "remark": "^15.0.1",
+    "remark-lint": "^10.0.1",
+    "tsdown": "^0.17.0",
+    "typescript": "^5.9.3",
+    "unist": "^0.0.1",
+    "vitest": "^4.0.15"
+  },
+  "keywords": [
+    "remark",
+    "remark-lint",
+    "remark-lint-rule",
+    "lint"
+  ]
+}
