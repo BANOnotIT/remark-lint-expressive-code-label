@@ -44,8 +44,8 @@
   },
   "devDependencies": {
     "@expressive-code/core": "^0.41.3",
-    "@types/node": "^24.10.1",
     "@types/mdast": "^4.0.0",
+    "@types/node": "^24.10.1",
     "bumpp": "^10.3.2",
     "dedent": "^1.7.0",
     "remark": "^15.0.1",
