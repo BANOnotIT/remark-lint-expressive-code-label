@@ -2,7 +2,7 @@
   "name": "remark-lint-expressive-code-label",
   "description": "Remark lint plugin to validate Expressive Code labels",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "author": {
     "name": "BANO",
