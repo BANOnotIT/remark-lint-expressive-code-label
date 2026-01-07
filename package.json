@@ -46,13 +46,13 @@
     "@expressive-code/core": "^0.41.3",
     "@types/mdast": "^4.0.0",
     "@types/node": "^24.10.1",
+    "@types/unist": "^3.0.3",
     "bumpp": "^10.3.2",
     "dedent": "^1.7.0",
     "remark": "^15.0.1",
     "remark-lint": "^10.0.1",
     "tsdown": "^0.17.0",
     "typescript": "^5.9.3",
-    "unist": "^0.0.1",
     "vitest": "^4.0.15"
   },
   "keywords": [
